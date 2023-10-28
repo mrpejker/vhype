@@ -1,4 +1,5 @@
 import Image from "next/image";
+import EmailComponent from "./emailform";
 
 function YourComponent() {
   return (
@@ -22,6 +23,8 @@ function YourComponent() {
 }
 
 const Page = () => {
+  //const gifUrl = "/gif.gif";
+
   return (
     <div className="flex min-h-screen flex-col items-center">
       {/* Header */}
@@ -31,6 +34,8 @@ const Page = () => {
 
       {/* Image and GIF */}
       <YourComponent />
+      {/* Email Input */}
+      <EmailComponent />
     </div>
   );
 };
