@@ -20,12 +20,14 @@ const PrizePage = () => {
           className="mb-[0.5cm] h-auto w-[2cm]"
         />
       </p>
-      <img
-        src="prize1.png"
-        alt="Prize clickable picture"
-        className="cursor-pointer hover:opacity-75"
-        //onClick={handleLotteryClick}
-      />
+      <Link href="/NFT">
+        <img
+          src="prize1.png"
+          alt="Prize clickable picture"
+          className="cursor-pointer hover:opacity-75"
+          //onClick={handleLotteryClick}
+        />
+      </Link>
     </div>
   );
 };
