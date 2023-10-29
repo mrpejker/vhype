@@ -39,4 +39,7 @@ The modified version of the repository is stored here:
 ## New SBT claim with lottery
 A new frontend lottery that allows winning the three prizes.
 Google-Cloud based app hosted on Firebase/GCP: https://vhype-1023.web.app
+
+
+
 <img width="717" alt="Screenshot 2023-10-29 at 10 01 53" src="https://github.com/mrpejker/vhype/assets/8280427/e1f21eec-9acd-410c-aaf0-94be3f3aeab9">
