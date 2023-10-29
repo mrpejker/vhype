@@ -20,9 +20,10 @@ Here is the description of the main vSelf [SBT collection toolkit](https://vself
 
 ## SBT smart contract
 
-This smart contract Events.sol allows to set up giveaway with non-transferable NFT (Soul Bound Token), mints SBT reward to recipient account on successful checkin via claim link, and stores giveaway metadata and mint history.
+This smart contract Events.sol allows you to set up giveaways with non-transferable NFT (Soul Bound Token), mints SBT reward to recipient account on successful checkin via claim link, and stores giveaway metadata and mint history.
 
 Arbutrum Goerli address: 0xbC3d5766B724FD33299c90fAeD05592E50069d21
+https://testnet.arbiscan.io/address/0xbC3d5766B724FD33299c90fAeD05592E50069d21
 
 Each giveaway is uniquely identified by `eventId` and contains the single SBT available to claim.
 
