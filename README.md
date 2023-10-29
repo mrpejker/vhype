@@ -31,12 +31,12 @@ Each giveaway is uniquely identified by `eventId` and contains the single SBT av
 Frontend is taken from vSelf.app, wallet and chain are updated for the hackathon.
 https://github.com/mrpejker/vhype-back
 https://vhype-back.vercel.app/
-The modified version of repository is stored here: 
-<img width="855" alt="Screenshot 2023-10-29 at 09 57 50" src="https://github.com/mrpejker/vhype/assets/8280427/cb30a343-c92e-4383-af14-750598d35e89">
+The modified version of the repository is stored here: 
 
+<img width="855" alt="Screenshot 2023-10-29 at 09 57 50" src="https://github.com/mrpejker/vhype/assets/8280427/9eb3738f-628d-4b1f-96c9-117299d38e70">
 
 
 ## New SBT claim with lottery
 A new frontend lottery that allows winning the three prizes.
 Google-Cloud based app hosted on Firebase/GCP: https://vhype-1023.web.app
-<img width="717" alt="Screenshot 2023-10-29 at 10 01 53" src="https://github.com/mrpejker/vhype/assets/8280427/04c4cb23-1ace-4300-8023-b6ace500bcee">
+<img width="717" alt="Screenshot 2023-10-29 at 10 01 53" src="https://github.com/mrpejker/vhype/assets/8280427/e1f21eec-9acd-410c-aaf0-94be3f3aeab9">
