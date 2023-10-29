@@ -29,11 +29,11 @@ Each giveaway is uniquely identified by `eventId` and contains the single SBT av
 
 ## SBT set up 
 Frontend is taken from vSelf.app, wallet and chain are updated for the hackathon.
+<img width="855" alt="Screenshot 2023-10-29 at 09 57 50" src="https://github.com/mrpejker/vhype/assets/8280427/cb30a343-c92e-4383-af14-750598d35e89">
 
-<img width="855" alt="Screenshot 2023-10-29 at 09 57 50" src="https://github.com/mrpejker/vhype/assets/8280427/f03187f7-79a1-4f8d-9a68-5dc3b532743b">
 
 
 ## New SBT claim with lottery
 A new frontend lottery that allows winning the three prizes.
-<img width="794" alt="Screenshot 2023-10-28 at 16 29 51" src="https://github.com/mrpejker/vhype/assets/8280427/2393b9d4-1423-4247-a359-02af71410d32">
 
+<img width="717" alt="Screenshot 2023-10-29 at 10 01 53" src="https://github.com/mrpejker/vhype/assets/8280427/04c4cb23-1ace-4300-8023-b6ace500bcee">
