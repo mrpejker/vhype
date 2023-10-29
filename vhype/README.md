@@ -1,28 +1,29 @@
-# Create T3 App
+# vHype - SBT-powered SMM tool for brands
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+## Overview
 
-## What's next? How do I make an app with this?
+Current repository contains source code of vHype application compatible with Arbitrum Goerli. The project for ETH London Hackathon is a new SMM feature for vSelf application, which is a community-as-a-service platform.
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+The available fuctionality is to set up custom SBT giveaway, distribute SBT reward using claim link or QR code, check claim analytics.
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+Key new elements:
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+- Rewritten and redeployed smart contract for Artbitrum network (Events.sol)
+- Lottery between three SBTs in SMM givewaway campaign
+- Modified user story
+- Support [MetaMask](https://metamask.io/) authorization
+- Automated email with Resend for detailed minting
 
-## Learn More
+## Documentation
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+Here is the description of the main vSelf [SBT collection toolkit](https://vself-project.gitbook.io/vself-project-documentation/sbt-collection-toolkit) functionality, which is released on NEAR mainnet.
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+## SBT smart contract
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+This smart contract Events.sol allows to set up giveaway with non-transferable NFT (Soul Bound Token), mints SBT reward to recipient account on successful checkin via claim link, and stores giveaway metadata and mint history.
 
-## How do I deploy this?
+Arbutrum Goerli address: 0xbC3d5766B724FD33299c90fAeD05592E50069d21
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+Each giveaway is uniquely identified by `eventId` and contains the single SBT available to claim.
+
+## New SBT claim with lottery

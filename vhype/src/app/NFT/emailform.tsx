@@ -1,20 +1,20 @@
 "use client";
 import { useState } from "react";
-import { Resend } from "resend";
 
 function EmailComponent() {
   const [email, setEmail] = useState(""); // to capture the email input
 
-  const handleEmailSend = async () => {
-    try {
-      await Resend.email.send({
-        to: email,
-        template: "./templates/email.tsx", // Replace with your actual template name from Resend
-      });
-      console.log("Email sent successfully!");
-    } catch (err) {
-      console.error("Failed to send email:", err);
-    }
+  const handleEmailSend = () => {
+    fetch("/api/send", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ email: email }),
+    })
+      .then((response) => response.json())
+      .then((data) => console.log(data))
+      .catch((error) => console.error("Error:", error));
   };
 
   return (
