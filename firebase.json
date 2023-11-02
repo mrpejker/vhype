@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "source": "hosting",
+    "source": "vhype",
     "ignore": [
       "firebase.json",
       "**/.*",

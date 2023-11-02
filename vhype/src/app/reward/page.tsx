@@ -19,7 +19,7 @@ function EmailComponent() {
   return (
     <div className="flex flex-col items-center pt-10">
       <p className="p-4 text-gray-600">
-        Or leave it for later and we'll send you instructions over email
+        Or leave it for later and we will send you instructions over email
       </p>
       <div className="flex flex-row justify-between">
         <input
@@ -60,13 +60,13 @@ function RewardInfo() {
       {/* GIF */}
       <div className="absolute left-0 top-0 z-10 flex h-full w-full items-center justify-center">
         {random === 0 && (
-          <Image src="/gif.gif" alt="GIF" width={400} height={400} />
+          <img src="/gif.gif" alt="GIF" width={400} height={400} />
         )}
         {random === 1 && (
-          <Image src="/gif2.gif" alt="GIF" width={400} height={400} />
+          <img src="/gif2.gif" alt="GIF" width={400} height={400} />
         )}
         {random === 2 && (
-          <Image src="/gif3.gif" alt="GIF" width={400} height={400} />
+          <img src="/gif3.gif" alt="GIF" width={400} height={400} />
         )}
       </div>
     </div>
@@ -80,7 +80,7 @@ const Page = () => {
     <div className="flex min-h-screen flex-col items-center">
       {/* Header */}
       <h1 className=" p-2 text-2xl font-bold">
-        Amazing! You're so lucky today!
+        Amazing! You are so lucky today!
       </h1>
 
       {/* Image and GIF */}
